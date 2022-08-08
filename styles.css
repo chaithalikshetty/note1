@@ -1,0 +1,173 @@
+
+
+
+:root {
+    --white: white;
+    --black: black;
+    --blue: blue;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: grey;
+    --color-dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu ul{
+display:inline-flex;
+list-style:none;
+color: white;
+}
+
+.menu ul li{
+width:120px;
+margin:15px;
+padding:15px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+}
+
+body{
+font-family: 'Arial', sans-serif;
+background-image:url(img9.jpg);
+background-size:cover;
+    background-repeat:no-repeat
+    width:200px;
+    height=100vh;
+}
+
+.p-small {
+    padding-bottom: 5px;
+}
+.p-medium {
+    padding-bottom: 10px;
+}
+.p-y {
+    padding: 10px 0;
+}
+.m-y {
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.srch{
+font-family='Times New Roman';
+width:200px;
+height:40px;
+background:transparent;
+border:1px solid red;
+margin-top:13px;
+color:white;
+border-right:none;
+font-size:16px;
+float:left;
+padding:10px;
+border-bottom-left-radius:5px;
+
+border-top-left-radius:5px;
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    line-height: 2;
+}
+
+header form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+form > * {
+    width:250px;
+    
+    
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 7px;
+    border: 1px solid #777;
+    border-radius: 3px;
+   
+}
+
+form textarea {
+    padding: 7px 0 0px 5px;
+    font-size: 1.2rem;
+    font-family: inherit;
+     background-color:"black";
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+form button {
+    background-color: purple;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+form button:hover {
+    background-color: var(--color-primary);
+}
+
+.note {
+    padding: 1rem;
+    width:250
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 1rem 0;
+
+}
+
+.note-counter,
+.note-text {
+    font-size: 1.2rem;
+}
+
+.note-title {
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.note-btn {
+    padding: 7px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: purple;
+}
